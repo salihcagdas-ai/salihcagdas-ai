@@ -10,7 +10,7 @@ I build Python tools that connect model training, evaluation and video inference
 - Bounding-box evaluation, error analysis and reproducible experiments.
 - Python tooling for local image and video processing.
 
-## Featured project
+## Featured projects
 
 ### [Face Detection with PyTorch](https://github.com/salihcagdas-ai/Deep-Learning-Face-Project)
 
@@ -25,8 +25,21 @@ for face localization.
 The README documents the architecture, setup and limitations. Synthetic tests
 check the pipeline; they do not establish accuracy on real-world faces.
 
+### [Traffic Vision Lab](https://github.com/salihcagdas-ai/traffic-vision-lab)
+
+A maintained portfolio edition of a shared graduation project for traffic-video
+analysis, with [project origin and attribution](https://github.com/salihcagdas-ai/traffic-vision-lab/blob/main/NOTICE.md).
+
+- Calibrated homography and elapsed-frame timing for speed estimation.
+- Directed crossings of a finite stop line, with HSV-based traffic-light checks.
+- Local SQLite metadata, with personal fields discarded by default.
+- A deterministic synthetic demo and offline tests for geometry and event logic.
+
+Synthetic checks verify the pipeline; real-world detection, OCR and speed
+accuracy have not been measured for this edition.
+
 ## Tools
 
-Python · PyTorch · OpenCV · NumPy · Git · pytest
+Python · PyTorch · OpenCV · NumPy · SQLite · Git · pytest
 
 I value clear implementations, testable behavior and results that can be checked.
