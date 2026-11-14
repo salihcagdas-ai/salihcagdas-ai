@@ -38,8 +38,20 @@ analysis, with [project origin and attribution](https://github.com/salihcagdas-a
 Synthetic checks verify the pipeline; real-world detection, OCR and speed
 accuracy have not been measured for this edition.
 
+### [Edge Camera Lab](https://github.com/salihcagdas-ai/edge-camera-lab)
+
+A local camera analytics prototype built around replaceable adapters.
+
+- Local face embeddings and open-set gallery matching.
+- A FastAPI dashboard and SQLite event storage.
+- Signed cookie sessions, upload limits and configurable event retention.
+- A synthetic workflow demo with generated scenes and fake inference.
+
+Synthetic checks exercise software behavior; real-world recognition accuracy
+and Pi/Hailo performance have not been benchmarked for this edition.
+
 ## Tools
 
-Python · PyTorch · OpenCV · NumPy · SQLite · Git · pytest
+Python · PyTorch · OpenCV · NumPy · FastAPI · SQLite · Git · pytest
 
 I value clear implementations, testable behavior and results that can be checked.
